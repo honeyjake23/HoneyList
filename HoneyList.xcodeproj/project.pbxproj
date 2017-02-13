@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC3EAFD11E526C0B00234753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EAFD01E526C0B00234753 /* AppDelegate.swift */; };
+		AC3EAFD31E526C0B00234753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3EAFD21E526C0B00234753 /* ViewController.swift */; };
+		AC3EAFD61E526C0B00234753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3EAFD41E526C0B00234753 /* Main.storyboard */; };
+		AC3EAFD91E526C0B00234753 /* HoneyList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC3EAFD71E526C0B00234753 /* HoneyList.xcdatamodeld */; };
+		AC3EAFDB1E526C0B00234753 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC3EAFDA1E526C0B00234753 /* Assets.xcassets */; };
+		AC3EAFDE1E526C0B00234753 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC3EAFDC1E526C0B00234753 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC3EAFCD1E526C0B00234753 /* HoneyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC3EAFD01E526C0B00234753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC3EAFD21E526C0B00234753 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC3EAFD51E526C0B00234753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC3EAFD81E526C0B00234753 /* HoneyList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HoneyList.xcdatamodel; sourceTree = "<group>"; };
+		AC3EAFDA1E526C0B00234753 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC3EAFDD1E526C0B00234753 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC3EAFDF1E526C0B00234753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC3EAFCA1E526C0A00234753 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC3EAFC41E526C0A00234753 = {
+			isa = PBXGroup;
+			children = (
+				AC3EAFCF1E526C0B00234753 /* HoneyList */,
+				AC3EAFCE1E526C0B00234753 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC3EAFCE1E526C0B00234753 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC3EAFCD1E526C0B00234753 /* HoneyList.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC3EAFCF1E526C0B00234753 /* HoneyList */ = {
+			isa = PBXGroup;
+			children = (
+				AC3EAFD01E526C0B00234753 /* AppDelegate.swift */,
+				AC3EAFD21E526C0B00234753 /* ViewController.swift */,
+				AC3EAFD41E526C0B00234753 /* Main.storyboard */,
+				AC3EAFDA1E526C0B00234753 /* Assets.xcassets */,
+				AC3EAFDC1E526C0B00234753 /* LaunchScreen.storyboard */,
+				AC3EAFDF1E526C0B00234753 /* Info.plist */,
+				AC3EAFD71E526C0B00234753 /* HoneyList.xcdatamodeld */,
+			);
+			path = HoneyList;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC3EAFCC1E526C0A00234753 /* HoneyList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC3EAFE21E526C0B00234753 /* Build configuration list for PBXNativeTarget "HoneyList" */;
+			buildPhases = (
+				AC3EAFC91E526C0A00234753 /* Sources */,
+				AC3EAFCA1E526C0A00234753 /* Frameworks */,
+				AC3EAFCB1E526C0A00234753 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneyList;
+			productName = HoneyList;
+			productReference = AC3EAFCD1E526C0B00234753 /* HoneyList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC3EAFC51E526C0A00234753 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Honey Choksi";
+				TargetAttributes = {
+					AC3EAFCC1E526C0A00234753 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AC3EAFC81E526C0A00234753 /* Build configuration list for PBXProject "HoneyList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC3EAFC41E526C0A00234753;
+			productRefGroup = AC3EAFCE1E526C0B00234753 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC3EAFCC1E526C0A00234753 /* HoneyList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC3EAFCB1E526C0A00234753 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3EAFDE1E526C0B00234753 /* LaunchScreen.storyboard in Resources */,
+				AC3EAFDB1E526C0B00234753 /* Assets.xcassets in Resources */,
+				AC3EAFD61E526C0B00234753 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC3EAFC91E526C0A00234753 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC3EAFD31E526C0B00234753 /* ViewController.swift in Sources */,
+				AC3EAFD11E526C0B00234753 /* AppDelegate.swift in Sources */,
+				AC3EAFD91E526C0B00234753 /* HoneyList.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AC3EAFD41E526C0B00234753 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3EAFD51E526C0B00234753 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC3EAFDC1E526C0B00234753 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC3EAFDD1E526C0B00234753 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC3EAFE01E526C0B00234753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC3EAFE11E526C0B00234753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC3EAFE31E526C0B00234753 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoneyList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeychoksi.HoneyList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC3EAFE41E526C0B00234753 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoneyList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.honeychoksi.HoneyList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC3EAFC81E526C0A00234753 /* Build configuration list for PBXProject "HoneyList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3EAFE01E526C0B00234753 /* Debug */,
+				AC3EAFE11E526C0B00234753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC3EAFE21E526C0B00234753 /* Build configuration list for PBXNativeTarget "HoneyList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC3EAFE31E526C0B00234753 /* Debug */,
+				AC3EAFE41E526C0B00234753 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AC3EAFD71E526C0B00234753 /* HoneyList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AC3EAFD81E526C0B00234753 /* HoneyList.xcdatamodel */,
+			);
+			currentVersion = AC3EAFD81E526C0B00234753 /* HoneyList.xcdatamodel */;
+			path = HoneyList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AC3EAFC51E526C0A00234753 /* Project object */;
+}
